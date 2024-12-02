@@ -16,9 +16,9 @@ public class Exercise15 {
         for (String item : queue) {
             count++;
 
-            if (count == queue.size() - (k - 1)) {
+            if (count >= queue.size() - (k - 1)) {
                 StdOut.println(item);
-                break;
+                //break;
             }
         }
     }

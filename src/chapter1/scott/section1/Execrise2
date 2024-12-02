@@ -1,0 +1,10 @@
+
+In Java, the expression `String d = 1 + 2 + "3";` will print "33" due to the order in which operations are evaluated and the rules of type conversion. Let's break it down step by step:
+
+1. **Order of Operations**: Java evaluates the expression from left to right.
+2. **Integer Addition**: The first part of the expression is `1 + 2`, which are both integers. Java will add these two numbers, resulting in `3`.
+3. **String Concatenation**: Next, the result of `1 + 2`, which is `3`, is concatenated with the string `"3"`. When an integer is added to a string in Java, the integer is converted to its string representation, and then concatenated with the other string. Therefore, `3 + "3"` becomes `"3" + "3"`, which results in `"33"`.
+
+Hence, the value of `d` will be the string `"33"`.
+
+If you changed the order of the operations by starting with a string, like this: `String d = "1" + 2 + 3;`, the result would be `"123"`, because the concatenation would start with the string `"1"` and proceed from left to right, treating each subsequent number as a string.

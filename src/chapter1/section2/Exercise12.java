@@ -106,5 +106,8 @@ public class Exercise12 {
 
         Exercise12 smartDate7 = new Exercise12(3, 29, 2050);
         StdOut.println(smartDate7.dayOfTheWeek() + " Expected: Tuesday");
+
+        Exercise12 smartDate8 = new Exercise12(9, 18, 2024);
+        StdOut.println(smartDate8.dayOfTheWeek() + " Expected: Wednesday");
     }
 }

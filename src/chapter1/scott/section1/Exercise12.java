@@ -10,8 +10,8 @@ public class Exercise12 {
             a[i] = a[a[i]];
         for (int i = 0; i < 10; i++)
         {
-            System.out.println(i);
-            System.out.println(a[i]);
+            //System.out.println(i);
+           System.out.println(a[i]);
         }
     }
 

@@ -108,33 +108,44 @@ public class Exercise16_RationalNumbers {
     }
 
     private void testRationalNumbers() {
-        RationalNumbers rational1 = new RationalNumbers(1, 4);
-        RationalNumbers rational2 = new RationalNumbers(2, 3);
+//        RationalNumbers rational1 = new RationalNumbers(1, 4);
+//        RationalNumbers rational2 = new RationalNumbers(2, 3);
+//
+//        RationalNumbers rationalPlus = rational1.plus(rational2);
+//        StdOut.println("Plus test: 1/4 + 2/3 = " + rationalPlus.numerator + "/" + rationalPlus.denominator
+//                + " Expected: 11/12");
+//
+//        RationalNumbers rationalMinus = rational1.minus(rational2);
+//        StdOut.println("Minus test: 1/4 - 2/3 = " + rationalMinus.numerator + "/" + rationalMinus.denominator
+//                + " Expected: -5/12");
+//
+//        RationalNumbers rationalTimes = rational1.times(rational2);
+//        StdOut.println("Times test: 1/4 * 2/3 = " + rationalTimes.numerator + "/" + rationalTimes.denominator
+//                + " Expected: 1/6");
+//
+//        RationalNumbers rationalDividedBy = rational1.dividedBy(rational2);
+//        StdOut.println("Divided by test: 1/4 / 2/3 = " + rationalDividedBy.numerator + "/" + rationalDividedBy.denominator
+//                + " Expected: 3/8");
+//
+//        RationalNumbers equalRational1 = rational1;
+//        RationalNumbers equalRational2 = new RationalNumbers(rational1.numerator(), rational1.denominator());
+//        RationalNumbers nonEqualRational = new RationalNumbers(7, 8);
+//        StdOut.println("Equal test 1 = " + rational1.equals(equalRational1) + " Expected: true");
+//        StdOut.println("Equal test 2 = " + rational1.equals(equalRational2) + " Expected: true");
+//        StdOut.println("Equal test 3 = " + rational1.equals(nonEqualRational) + " Expected: false");
+//
+//        StdOut.println("toString() test 1 = " + rational1 + " Expected: 1/4");
+//        StdOut.println("toString() test 2 = " + rational2 + " Expected: 2/3");
+//
+//        RationalNumbers rational3 = new RationalNumbers(3, 4);
+//        RationalNumbers rational4 = new RationalNumbers(2, 3);
+//        RationalNumbers rational34Times = rational3.times(rational4);
+//        StdOut.println(rational34Times);
 
-        RationalNumbers rationalPlus = rational1.plus(rational2);
-        StdOut.println("Plus test: 1/4 + 2/3 = " + rationalPlus.numerator + "/" + rationalPlus.denominator
-                + " Expected: 11/12");
+        RationalNumbers rational5 = new RationalNumbers(-3, 4);
+        RationalNumbers rational6 = new RationalNumbers(2, 3);
+        RationalNumbers rational56Times = rational5.times(rational6);
+        StdOut.println(rational56Times);
 
-        RationalNumbers rationalMinus = rational1.minus(rational2);
-        StdOut.println("Minus test: 1/4 - 2/3 = " + rationalMinus.numerator + "/" + rationalMinus.denominator
-                + " Expected: -5/12");
-
-        RationalNumbers rationalTimes = rational1.times(rational2);
-        StdOut.println("Times test: 1/4 * 2/3 = " + rationalTimes.numerator + "/" + rationalTimes.denominator
-                + " Expected: 1/6");
-
-        RationalNumbers rationalDividedBy = rational1.dividedBy(rational2);
-        StdOut.println("Divided by test: 1/4 / 2/3 = " + rationalDividedBy.numerator + "/" + rationalDividedBy.denominator
-                + " Expected: 3/8");
-
-        RationalNumbers equalRational1 = rational1;
-        RationalNumbers equalRational2 = new RationalNumbers(rational1.numerator(), rational1.denominator());
-        RationalNumbers nonEqualRational = new RationalNumbers(7, 8);
-        StdOut.println("Equal test 1 = " + rational1.equals(equalRational1) + " Expected: true");
-        StdOut.println("Equal test 2 = " + rational1.equals(equalRational2) + " Expected: true");
-        StdOut.println("Equal test 3 = " + rational1.equals(nonEqualRational) + " Expected: false");
-
-        StdOut.println("toString() test 1 = " + rational1 + " Expected: 1/4");
-        StdOut.println("toString() test 2 = " + rational2 + " Expected: 2/3");
     }
 }
